@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  Configuración básica del documento
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Daniela Rojas">
+  <meta name="keywords" content="festival, music festival, event, bootstrap, responsive, examen 7">
+  <meta name="description" content="Página web estilo festival de música basada en la referencia del examen 7.">
+
+  <title>Festava Live</title>
+
+  Fuente de Google 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  Archivo CSS 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="festival">
+    <div class="container festival__container">
+      <section class="festival__card">
+
+        Barra superior
+        <div class="festival__topbar">
+          <i class="bi bi-person"></i> Welcome to Music Festival 2023
+        </div>
+
+         Menú principal 
+        <header class="festival__navbar">
+          <div class="container">
+            <div class="row align-items-center">
+
+              <!-- Logo o nombre del sitio -->
+              <div class="col-lg-3 col-md-12 text-center text-lg-start">
+                <a href="#" class="festival__brand">Festava Live</a>
+              </div>
+
+              <!-- Links del menú -->
+              <div class="col-lg-7 col-md-12">
+                <nav>
+                  <ul class="festival__menu">
+                    <li><a href="#" class="festival__link festival__link--active">Home</a></li>
+                    <li><a href="#" class="festival__link">About</a></li>
+                    <li><a href="#" class="festival__link">Artists</a></li>
+                    <li><a href="#" class="festival__link">Schedule</a></li>
+                    <li><a href="#" class="festival__link">Pricing</a></li>
+                    <li><a href="#" class="festival__link">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+
+              <!-- Botón circular -->
+              <div class="col-lg-2 col-md-12 text-center text-lg-end">
+                <a href="#" class="festival__ticket-btn">Buy<br>Ticket</a>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <!-- Parte central con el título principal -->
+        <section class="festival__hero">
+          <div>
+            <p class="festival__subtitle">FESTAVA LIVE PRESENTS</p>
+            <h1 class="festival__title">Night Live 2023</h1>
+            <a href="#" class="festival__cta">Let's begin</a>
+          </div>
+        </section>
+
+        <!-- Parte inferior con fecha, ubicación y redes -->
+        <footer class="festival__footer">
+          <div class="container">
+            <div class="row align-items-center">
+
+              <!-- Fecha del evento -->
+              <div class="col-lg-4 col-md-6">
+                <div class="festival__info-group">
+                  <i class="bi bi-clock"></i>
+                  <span>10 - 12<sup>th</sup>, Dec 2023</span>
+                </div>
+              </div>
+
+               Ubicación del festival 
+              <div class="col-lg-4 col-md-6">
+                <div class="festival__info-group">
+                  <i class="bi bi-geo-alt"></i>
+                  <span>National Center, United States</span>
+                </div>
+              </div>
+            
+
+              <!-- Redes sociales del festival
+              <div class="col-lg-4 col-md-12">
+                <div class="festival__share">
+                  <span class="festival__share-text">Share:</span>
+                  <a href="#" class="festival__social"><i class="bi bi-facebook"></i></a>
+                  <a href="#" class="festival__social"><i class="bi bi-twitter"></i></a>
+                  <a href="#" class="festival__social"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </footer>
+
+      </section>
+    </div>
+  </main>
+</body>
+</html>
